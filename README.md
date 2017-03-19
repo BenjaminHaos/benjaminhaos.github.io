@@ -1,22 +1,18 @@
 # Haos Dot Info!
 
-Setup:
+### Setup:
 
-Created GitHub repo : benjaminhaos.github.io
+* Created GitHub repo : benjaminhaos.github.io
+* Added custom domain name using GitHub Repo's settings.
+* Changed Redirects to point to https://benjaminhaos.github.io/
+* Added two A records in Domain Registrar's settings.
+    * 192.30.252.153
+    * 192.30.252.154
+* Used `dig +noall +answer haos.info` in terminal to check status of changes.
+    * ![terminal output](img/dig_images.jpg "Terminal Output of dig command.")
 
-Added custom domain name using GitHub Repo's settings.
 
-Changed Redirects to point to https://benjaminhaos.github.io/
 
-Added two A records in Domain Registrar's settings.
-
-192.30.252.153
-192.30.252.154
-
-Used this in terminal to check status of changes:
-
-dig +noall +answer haos.info
-
-http://www.haos.info/
+http://haos.info
 https://www.haos.info/
 
